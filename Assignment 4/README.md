@@ -68,6 +68,8 @@ Use Cases:
 	Actor action – User queries about companies' number of skills of artificial intelligence.
 	System Responses – An order is made for the skills that match the company in the Skills and Company table. 
 	Alternate Path: There is no company using artificial intelligence. 
+	
+	
 	CREATE VIEW Skills_ArtificialIntelligence as
            SELECT sk.Skills,sk.company,c.Location  
 	From Skills sk  
